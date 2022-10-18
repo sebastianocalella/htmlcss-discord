@@ -42,7 +42,7 @@ button{
 }
 
 .bg-grey{
-    background-color: #565454;
+    background-color: #f5f5f5;
 }
 
 .container{
@@ -124,7 +124,11 @@ main{
 }
 
 .separator{
-    background-color: rgb(255, 255, 255, 0.95);
+    display: block;
+}
+
+.flipped{
+    transform: scale(-1, -1);
 }
 
 .reverse{
@@ -133,7 +137,6 @@ main{
 
 .slide{
     justify-content: space-between;
-    height: 450px;
 }
 
 .ordinary-slide{
