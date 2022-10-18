@@ -42,7 +42,7 @@ button{
 }
 
 .bg-grey{
-    background-color: #f6f6f6;
+    background-color: #565454;
 }
 
 .container{
@@ -119,9 +119,12 @@ nav{
 
 main{
     color: #23272a;
-    height: 2800px;
     justify-content: space-between;
     margin-top: 5rem;
+}
+
+.separator{
+    background-color: rgb(255, 255, 255, 0.95);
 }
 
 .reverse{
