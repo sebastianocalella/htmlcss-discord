@@ -16,6 +16,7 @@ body{
 .fl-column{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 button{
@@ -125,6 +126,8 @@ main{
 
 .separator{
     display: block;
+    height: 100%;
+    width: 100%;
 }
 
 .flipped{
@@ -143,12 +146,12 @@ main{
     text-align: center;
 }
 
-.slide>img{
+.slide-img{
     width: 55%;
 }
 
-.slide>div{
-    width: 32%;
+.text{
+    flex-basis: 32%;
 }
 
 .text>*{
@@ -166,6 +169,7 @@ main{
 main footer{
     text-align: center;
     padding-bottom: 8rem;
+    width: 100%;
 }
 
 main footer h3{
@@ -183,7 +187,7 @@ main footer button{
 .background{
     background-image: url(./img/stars.svg);
     padding: .1rem 0;
-    margin: 0 20%;
+    margin: 0 32%;
 }
 
 body>footer{
