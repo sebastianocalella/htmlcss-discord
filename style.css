@@ -41,6 +41,10 @@ button{
     color: white;
 }
 
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
 .container{
     margin: 0 auto;
     padding: 0 17.5%;
@@ -116,7 +120,8 @@ nav{
 main{
     color: #23272a;
     height: 2800px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 5rem;
 }
 
 .reverse{
@@ -154,7 +159,7 @@ main{
 
 main footer{
     text-align: center;
-    margin: 0 15% 8rem;
+    padding-bottom: 8rem;
 }
 
 main footer h3{
