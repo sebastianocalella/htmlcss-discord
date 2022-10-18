@@ -13,6 +13,11 @@ body{
     display: flex;
 }
 
+.fl-column{
+    display: flex;
+    flex-direction: column;
+}
+
 button{
     border-radius: 2rem;
     border: none;
@@ -38,7 +43,7 @@ button{
 
 .container{
     margin: 0 auto;
-    width: 65%;
+    padding: 0 17.5%;
 }
 
 header{
@@ -110,10 +115,8 @@ nav{
 
 main{
     color: #23272a;
-}
-
-main>*{
-    padding-top: 7rem;
+    height: 2800px;
+    justify-content: space-around;
 }
 
 .reverse{
@@ -122,6 +125,7 @@ main>*{
 
 .slide{
     justify-content: space-between;
+    height: 450px;
 }
 
 .ordinary-slide{
@@ -129,11 +133,11 @@ main>*{
 }
 
 .slide>img{
-    width: 60%;
+    width: 55%;
 }
 
 .slide>div{
-    width: 28%;
+    width: 32%;
 }
 
 .text>*{
@@ -167,7 +171,8 @@ main footer button{
 
 .background{
     background-image: url(./img/stars.svg);
-    padding: 1rem 2rem 0;
+    padding: .1rem 0;
+    margin: 0 20%;
 }
 
 body>footer{
