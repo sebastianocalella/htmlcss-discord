@@ -16,7 +16,6 @@ body{
 .fl-column{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 button{
@@ -120,7 +119,6 @@ nav{
 
 main{
     color: #23272a;
-    justify-content: space-between;
     margin-top: 5rem;
 }
 
@@ -139,11 +137,12 @@ main{
 }
 
 .slide{
-    justify-content: space-between;
+    padding: 5rem 0;
 }
 
 .ordinary-slide{
     text-align: center;
+    align-items: center;
 }
 
 .slide-img{
@@ -188,6 +187,10 @@ main footer button{
     background-image: url(./img/stars.svg);
     padding: .1rem 0;
     margin: 0 32%;
+}
+
+section:last-child{
+    padding-bottom: 0;
 }
 
 body>footer{
