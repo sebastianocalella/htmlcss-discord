@@ -36,18 +36,23 @@ button{
     color: white;
 }
 
+.container{
+    margin: 0 auto;
+    width: 65%;
+}
+
 header{
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: .5rem 15% 6rem;
+    padding: .5rem 0 6rem;
     color: white;
     text-align: center;
     font-size: 1.2rem;
     height: auto;
 }
 
-body>header a{
+.nav-link{
     color: white;
     font-size: .8rem;
     font-weight: bold;
@@ -85,7 +90,7 @@ nav{
 }
 
 .header-content{
-    margin: 4rem 20% 0;
+    margin: 4rem 25% 0;
     line-height: 1.8rem;
 }
 
@@ -94,7 +99,7 @@ nav{
 }
 
 .header-content nav{
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .wide{
@@ -104,7 +109,6 @@ nav{
 }
 
 main{
-    padding: 0 15%;
     color: #23272a;
 }
 
@@ -167,7 +171,7 @@ main footer button{
 }
 
 body>footer{
-    padding: 5rem 15% 5rem;
+    padding: 3rem 0;
     background-color: #23272a;
 }
 
@@ -221,9 +225,8 @@ body>footer a:hover{
     color: #8ea1e1;
 }
 
-body>footer>hr{
-    height: 0;
-    margin-top: 2rem;
+hr{
+    margin: 2rem 0;
 }
 
 .credits{
