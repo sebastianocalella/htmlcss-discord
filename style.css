@@ -1,0 +1,236 @@
+/** reset **/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+}
+
+button{
+    border-radius: 2rem;
+    border: none;
+}
+
+.discord-bk{
+    background-color: #8ea1e1;
+}
+
+.discord-color{
+    color: #8ea1e1;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.dark-grey{
+    background-color: #23272a;
+    color: white;
+}
+
+header{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: .5rem 15% 6rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    height: auto;
+}
+
+body>header a{
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+body>header a:link{
+    text-decoration: none;
+}
+
+body>header a:hover{
+    text-decoration: underline;
+    color: #8ea1e1;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul>li{
+    display: inline;
+}
+
+nav{
+    justify-content: space-between;
+    margin-top: .7rem;
+    height: auto;
+    font-size: 1rem;
+}
+
+.narrow{
+    font-size: .8rem;
+    padding: 1rem 1rem;
+    line-height: 0;
+}
+
+.header-content{
+    margin: 4rem 20% 0;
+    line-height: 1.8rem;
+}
+
+.header-content>*{
+    margin-top: 2rem;
+}
+
+.header-content nav{
+    justify-content: space-around;
+}
+
+.wide{
+    padding: 1.5rem 1.8rem;
+    font-size: 1rem;
+    line-height: 0;
+}
+
+main{
+    padding: 0 15%;
+    color: #23272a;
+}
+
+main>*{
+    padding-top: 7rem;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.slide{
+    justify-content: space-between;
+}
+
+.ordinary-slide{
+    text-align: center;
+}
+
+.slide>img{
+    width: 60%;
+}
+
+.slide>div{
+    width: 28%;
+}
+
+.text>*{
+    margin-top: 1rem;
+}
+
+.text>h2{
+    font-size: 2.5rem;
+}
+
+.text>p{
+    line-height: 1.5rem;
+}
+
+main footer{
+    text-align: center;
+    margin: 0 15% 8rem;
+}
+
+main footer h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+main footer button{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+    margin-top: 3rem;
+}
+
+.background{
+    background-image: url(./img/stars.svg);
+    padding: 1rem 2rem 0;
+}
+
+body>footer{
+    padding: 5rem 15% 5rem;
+    background-color: #23272a;
+}
+
+.elements{
+    justify-content: space-between;
+}
+
+.column{
+    margin-right:calc((16%/12)*3);
+    width: 14%;
+    font-size: .8rem;
+}
+
+#first-section{
+    width: 28%;
+    margin-right: calc((16%/12)*4);
+    font-size: 1.2rem;
+}
+
+.language{
+    margin-top: 1.5rem;
+    height: 1.2rem;
+}
+
+select{
+    color: white;
+    background-color: #23272a;
+    border: none;
+    font-weight: bold;
+}
+
+body>footer ul{
+    list-style-type: none;
+}
+
+body>footer li{
+    margin-top: .8rem;
+}
+
+body>footer a{
+    color: white;
+    font-weight: bold;
+}
+
+body>footer a:link{
+    text-decoration: none;
+}
+
+body>footer a:hover{
+    text-decoration: underline;
+    color: #8ea1e1;
+}
+
+body>footer>hr{
+    height: 0;
+    margin-top: 2rem;
+}
+
+.credits{
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.discord-bk{
+    color: white;
+}
